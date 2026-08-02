@@ -1,0 +1,160 @@
+Project Journal
+
+Project Title
+
+AI Smart Surveillance System Using ESP32-CAM
+
+Author: Prince Kumar
+
+Total Project Duration: 41 Hours 32 Minutes 55 Seconds
+
+---
+
+Project Overview
+
+The AI Smart Surveillance System is an IoT-based hardware project developed using an ESP32-CAM and a PIR motion sensor. The system continuously monitors an area for motion. When movement is detected, the ESP32-CAM captures an image, activates an LED and buzzer, and can send the captured image to a mobile device through Wi-Fi. The project demonstrates embedded systems, IoT communication, sensor integration, and smart security technology.
+
+---
+
+Journal Summary
+
+Part 1 – Project Planning and Research
+
+Duration: 6 Hours
+
+- Studied IoT surveillance systems.
+- Selected ESP32-CAM as the controller.
+- Researched PIR motion sensors.
+- Prepared project objectives.
+- Created project workflow.
+- Installed Arduino IDE and ESP32 board package.
+
+Outcome: Complete project planning and software setup finished.
+
+---
+
+Part 2 – Component Selection and Initial Setup
+
+Duration: 6 Hours 15 Minutes
+
+- Collected all hardware components.
+- Verified ESP32-CAM operation.
+- Tested PIR sensor.
+- Tested LED and buzzer.
+- Prepared breadboard layout.
+- Verified power supply.
+
+Outcome: Every component worked correctly and was ready for assembly.
+
+---
+
+Part 3 – Circuit Design and Hardware Assembly
+
+Duration: 6 Hours 10 Minutes 30 Seconds
+
+- Designed the circuit diagram.
+- Connected ESP32-CAM with PIR sensor.
+- Connected LED and buzzer.
+- Verified all wiring.
+- Improved cable management.
+- Tested power connections.
+
+Outcome: Hardware assembly completed successfully.
+
+---
+
+Part 4 – Programming and System Testing
+
+Duration: 6 Hours 05 Minutes 45 Seconds
+
+- Programmed ESP32-CAM.
+- Initialized camera module.
+- Configured motion detection.
+- Tested LED and buzzer.
+- Verified image capture.
+- Performed debugging.
+
+Outcome: Software operated correctly with successful motion detection.
+
+---
+
+Part 5 – AI Surveillance Integration
+
+Duration: 5 Hours 52 Minutes 40 Seconds
+
+- Configured Wi-Fi.
+- Optimized image capture.
+- Improved PIR sensitivity.
+- Reduced false alarms.
+- Performed long-duration testing.
+- Improved system stability.
+
+Outcome: Complete AI surveillance system became reliable and efficient.
+
+---
+
+Part 6 – Final Testing and Troubleshooting
+
+Duration: 5 Hours 39 Minutes
+
+- Tested complete hardware.
+- Verified motion detection.
+- Tested image capture.
+- Fixed wiring issues.
+- Verified system stability.
+- Prepared final demonstration.
+
+Outcome: Complete system successfully passed all testing stages.
+
+---
+
+Part 7 – Documentation, GitHub Repository and Submission
+
+Duration: 10 Hours
+
+- Prepared project report.
+- Created GitHub repository.
+- Uploaded source code.
+- Added README.
+- Added BOM.
+- Added circuit diagram.
+- Added wiring diagram.
+- Added flowchart.
+- Uploaded project photographs.
+- Completed final documentation.
+
+Outcome: Project completed successfully and ready for Hack Club Macondo submission.
+
+---
+
+Skills Learned
+
+- ESP32-CAM Programming
+- Embedded Systems
+- IoT Development
+- Arduino IDE
+- Motion Detection
+- Camera Integration
+- Circuit Design
+- Hardware Assembly
+- Debugging
+- GitHub
+- Technical Documentation
+- Project Management
+
+---
+
+Challenges Faced
+
+- Camera initialization issues.
+- Wi-Fi connection stability.
+- PIR sensor sensitivity adjustment.
+- Organizing hardware neatly.
+- Preparing complete documentation.
+- Testing the system under different conditions.
+
+---
+
+Conclusion
+
+The AI Smart Surveillance System was successfully designed, developed, tested, documented, and prepared for demonstration. The project enhanced my understanding of embedded systems, IoT, electronics, programming, and hardware integration. It is a practical smart security solution capable of detecting motion, capturing images, and providing real-time alerts using ESP32-CAM technology.

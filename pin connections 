@@ -1,0 +1,27 @@
+AI SMART SURVEILLANCE SYSTEM
+FULL PIN CONNECTIONS
+
+ESP32-CAM              Component
+----------------------------------------------
+5V                 →    5V Power Supply
+GND                →    Power Supply GND
+
+GPIO13             →    PIR Sensor OUT
+5V                 →    PIR Sensor VCC
+GND                →    PIR Sensor GND
+
+GPIO4              →    LED (+)
+LED (-)            →    GND (through 220Ω resistor)
+
+GPIO12             →    Active Buzzer (+)
+Buzzer (-)         →    GND
+
+GPIO0              →    GND (ONLY while uploading code)
+GPIO1 (U0TXD)      →    FTDI RX
+GPIO3 (U0RXD)      →    FTDI TX
+5V                 →    FTDI 5V
+GND                →    FTDI GND
+
+ESP32-CAM Camera
+----------------------------------------------
+OV2640 Camera Module → Connected to ESP32-CAM Camera Connector (Built-in)

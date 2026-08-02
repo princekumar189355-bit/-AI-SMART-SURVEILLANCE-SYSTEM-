@@ -1,0 +1,68 @@
+/*
+  AI Smart Surveillance System
+  ESP32-CAM + PIR Sensor + LED + Buzzer
+*/
+
+#include "esp_camera.h"
+
+// ===== PIR, LED and Buzzer Pins =====
+#define PIR_PIN     13
+#define LED_PIN      4
+#define BUZZER_PIN  12
+
+void setup() {
+
+  Serial.begin(115200);
+
+  pinMode(PIR_PIN, INPUT);
+  pinMode(LED_PIN, OUTPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
+
+  digitalWrite(LED_PIN, LOW);
+  digitalWrite(BUZZER_PIN, LOW);
+
+  Serial.println("--------------------------------");
+  Serial.println("AI Smart Surveillance System");
+  Serial.println("System Started...");
+  Serial.println("--------------------------------");
+}
+
+void loop() {
+
+  int motion = digitalRead(PIR_PIN);
+
+  if (motion == HIGH) {
+
+    Serial.println("Motion Detected!");
+
+    digitalWrite(LED_PIN, HIGH);
+    digitalWrite(BUZZER_PIN, HIGH);
+
+    // Camera Capture
+    camera_fb_t * fb = esp_camera_fb_get();
+
+    if (!fb) {
+      Serial.println("Camera Capture Failed!");
+    } else {
+      Serial.println("Image Captured Successfully");
+      esp_camera_fb_return(fb);
+    }
+
+    delay(3000);
+
+    digitalWrite(LED_PIN, LOW);
+    digitalWrite(BUZZER_PIN, LOW);
+
+    Serial.println("Monitoring...");
+  }
+
+  else {
+
+    digitalWrite(LED_PIN, LOW);
+    digitalWrite(BUZZER_PIN, LOW);
+
+    Serial.println("No Motion");
+
+    delay(500);
+  }
+}

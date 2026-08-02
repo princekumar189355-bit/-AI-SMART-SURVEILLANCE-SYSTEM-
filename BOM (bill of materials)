@@ -1,0 +1,39 @@
+Bill of Materials (BOM)
+
+Project: AI Smart Surveillance System Using ESP32-CAM
+
+S.No| Component| Quantity| Approx. Cost (₹)
+1| ESP32-CAM (AI Thinker)| 1| 700
+2| HC-SR501 PIR Motion Sensor| 1| 120
+3| Active Buzzer (5V)| 1| 30
+4| 5mm LED| 1| 10
+5| 220Ω Resistor| 1| 2
+6| Breadboard| 1| 120
+7| Male-to-Male Jumper Wires (Pack)| 1| 100
+8| FTDI USB-to-Serial Programmer| 1| 300
+9| USB Cable| 1| 80
+10| 5V USB Power Adapter| 1| 200
+
+Total Estimated Cost
+
+Item| Amount
+Total Cost| ₹1,662
+
+Software Used
+
+- Arduino IDE
+- ESP32 Board Package
+- GitHub
+
+Tools Used
+
+- Laptop/Computer
+- USB Cable
+- Breadboard
+- FTDI Programmer
+
+Notes
+
+- Prices are approximate and may vary depending on the seller and location.
+- If you already own an FTDI programmer or USB adapter, the total project cost will be lower.
+- All software used in this project is free and open source.

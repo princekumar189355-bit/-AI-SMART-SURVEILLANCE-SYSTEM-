@@ -1,0 +1,40 @@
+                 AI SMART SURVEILLANCE SYSTEM
+                     PROJECT BLOCK DIAGRAM
+
+                 +----------------------+
+                 |      Power Supply    |
+                 +----------+-----------+
+                            |
+                            v
+                 +----------------------+
+                 |      ESP32-CAM       |
+                 | (Main Controller)    |
+                 +----+-----------+-----+
+                      |           |
+          Motion Data |           | Wi-Fi
+                      |           |
+                      v           v
+          +----------------+   +----------------------+
+          | PIR Motion     |   | Mobile Phone /       |
+          | Sensor         |   | Telegram Notification|
+          +----------------+   +----------------------+
+                      |
+          Motion Detected
+                      |
+                      v
+              +---------------+
+              | Capture Image |
+              +-------+-------+
+                      |
+          +-----------+-----------+
+          |                       |
+          v                       v
+   +--------------+        +---------------+
+   | LED Indicator|        | Active Buzzer |
+   +--------------+        +---------------+
+                      |
+                      v
+            +----------------------+
+            | Surveillance Alert   |
+            | & Continuous Monitor |
+            +----------------------+
